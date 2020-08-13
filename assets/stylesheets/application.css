@@ -150,3 +150,33 @@ a {
 }
 
 .note-form-page .form-actions .btn.btn-primary { background-color: #47bded; }
+
+.container-analytics {
+  width: 50%; 
+  margin: 0 auto; 
+  padding: 10px; 
+  margin-top: 10px;
+}
+
+table {
+  width: 100%; 
+  background-color: #000;
+  font-weight: 900;
+}
+
+table thead {
+  text-align: left;
+}
+
+table thead tr th:nth-child(2) {
+  text-align: center;
+}
+
+table tr {
+  border: 1px solid #ccc;
+}
+
+table tr th,
+table tr td {
+  padding: 10px 0 10px 10px;
+}

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1(style="text-align: center; color: #47bded; font-size: 20px; margin-top: 20px;")="Analytics"
+  div.container-analytics
+    table
+      thead
+        tr
+          th="Path"
+          th="Visits"
+      tbody
+        each path in paths
+          tr
+            td=path._id
+            td(style="text-align: center;")=path.count
